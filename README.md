@@ -9,11 +9,7 @@ More detail about the approval process: https://support.google.com/cloud/answer/
 
 ## Video Demo/Pitch and Live Demo:
 - Live Demo (https://genai-demo-vq5zkwn4yq-uc.a.run.app/site) - You may have to wait for 30 seconds for the demo site to come up on your first request.
-- Video Demo Pitch/Presentation (using Vertex AI Agent App): TBD
-
-
-<img src="https://github.com/suryakandshinde/google-vertex-ai-hack/raw/main/docs/chat_agents.png" width="60%" /> 
-
+- [Demo Pitch/Presentation](https://youtu.be/kWtTZmm8bFY) (using Vertex AI Agent App): https://youtu.be/kWtTZmm8bFY
 
 <code style="color : darkorange">**Please Note**:  The demo is hosted using a free trial account on (render.com). Free instance will spin down without any activity. Please wait for 50 seconds after your first request for site to come up. Also, since this application is using sqllite, the database is refreshed with every restart of instance.
 </code>
@@ -60,7 +56,6 @@ Following tools and technologies are used to building this solution/demo ([Proje
     - Used for sentiment analysis of user feedback/comments (using Google Node.js SDK)
     - Used for suggesting an promotional offer to a customer based on sentiment analysis of feedback (if feedback was negative)
     - [Read more about implementation](#google-ai-studio)
-- **Google Function Calling to invoke business APIs/Services** 
 - **AI Chat Assistant** 
     There are 2 versions of AI Chat Agent. First one using Low/No-Code Google Vertex AI Agent and, second Custom Chat widget using HTML and JS. The. The **Vertex AI Agent will not work for all users while app is in Testing environment**.
     - Google Vertex AI Agent and Dialogflow (Low-Code Chat Assistant - https://cloud.google.com/dialogflow/vertex/docs/quick/create-application)
