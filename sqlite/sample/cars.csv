@@ -1,0 +1,201 @@
+id,model,make,year,color,licensePlate,city,lat,lon,availability,rentalPrice,imageUrl,rating
+1,X5,BMW,2012,Violet,XYZ789,San Fransisco,37.5096505,-8.0644068,true,131.54,car_1.png,4.6
+2,Econoline E350,Ford,2000,Mauv,QWE123,Dallas,39.781583,114.632886,true,62.94,car_1.png,3.5
+3,Integra,Acura,2010,Indigo,HGF987,Mississauga,42.7362477,19.7859556,true,193.98,car_1.png,4.6
+4,Suburban 2500,Chevrolet,2009,Teal,HGF456,New York,24.4752847,101.3431058,true,104.89,car_6.png,4.4
+5,Parisienne,Pontiac,2007,Maroon,ZXC987,Mountain View,22.6611943,-102.9937166,true,92.13,car_5.png,3.6
+6,DB9,Aston Martin,2011,Purple,HGF123,Las Vegas,44.7783548,19.5985451,true,91.71,car_2.png,4.6
+7,G,Infiniti,2008,Blue,LKJ456,Toronto,39.6920939,-8.4272356,true,116.21,car_8.png,3.2
+8,Firefly,Pontiac,2004,Turquoise,JKL321,Chicago,-30.2488032,-54.9226452,true,82.73,car_1.png,4.7
+9,Highlander,Toyota,2009,Turquoise,ZXC654,Austin,-6.806232,110.890105,true,50.83,car_5.png,3.1
+10,Econoline E150,Ford,2013,Purple,POI789,Las Vegas,-7.5450262,111.6556388,true,89.06,car_4.png,4.7
+11,LS,Lexus,2017,Mauv,HGF654,Mountain View,19.9252706,99.8625116,true,106.32,car_8.png,3.6
+12,Bonneville,Pontiac,2013,Turquoise,MNB654,New York,28.786167,108.176236,true,165.35,car_9.png,4.5
+13,X3,BMW,2004,Green,MNB123,Las Vegas,38.0531218,-8.7524636,true,187.38,car_2.png,3.2
+14,Econoline E350,Ford,2017,Red,POI987,Las Vegas,41.8062766,-87.6482474,true,88.57,car_7.png,3.2
+15,650,BMW,2018,Green,LKJ789,Las Vegas,34.954857,109.299475,true,122.43,car_4.png,3.2
+16,Legend,Acura,2005,Aquamarine,MNB123,San Fransisco,45.764339,4.768427,true,179.94,car_5.png,3.8
+17,Continental,Lincoln,2001,Teal,MNB654,San Fransisco,-14.6486494,-39.5898526,true,115.5,car_6.png,4.1
+18,E150,Ford,2005,Pink,ZXC654,Toronto,-11.1215276,-75.3587075,true,195.3,car_9.png,4.8
+19,Econoline E250,Ford,2002,Turquoise,LKJ654,San Fransisco,23.106401,113.459749,true,94.93,car_4.png,3.5
+20,CX-9,Mazda,2015,Purple,MNB987,New York,2.2250009,-77.0794705,true,100.43,car_9.png,4.9
+21,Corolla,Toyota,2008,Aquamarine,HGF123,Las Vegas,25.5311276,69.0397556,true,68.35,car_1.png,4.9
+22,Montero Sport,Mitsubishi,2011,Orange,MNB123,New York,57.8512804,45.7788684,true,136.59,car_9.png,4.2
+23,Beretta,Chevrolet,2010,Green,ZXC987,Chicago,-6.9042641,107.6474283,true,122.88,car_10.png,4.8
+24,Bonneville,Pontiac,2010,Violet,QWE123,Mississauga,18.6794938,-71.940875,true,62.45,car_6.png,3.3
+25,911,Porsche,2003,Orange,LKJ123,Chicago,54.920665,43.347223,true,140.24,car_4.png,3.6
+26,Golf,Volkswagen,2022,Maroon,ZXC987,New York,51.444601,-0.1549619,true,64.21,car_5.png,4.0
+27,Quest,Nissan,2017,Purple,MNB654,New York,50.4398775,3.3941571,true,79.52,car_3.png,3.3
+28,Galant,Mitsubishi,2014,Fuscia,GHI789,Washington,46.6523173,16.2030722,true,176.37,car_3.png,4.0
+29,Bronco,Ford,2014,Pink,LKJ789,Austin,-8.3243906,122.9846079,true,115.96,car_6.png,4.2
+30,C-Class,Mercedes-Benz,2001,Pink,HGF456,Chicago,40.4722617,-7.9751886,true,58.89,car_1.png,3.6
+31,Suburban 2500,Chevrolet,2011,Turquoise,POI987,Austin,-17.0363653,30.4386437,true,172.62,car_1.png,4.7
+32,Boxster,Porsche,2015,Goldenrod,POI987,Toronto,41.8345433,-8.5504434,true,121.79,car_2.png,4.5
+33,Touareg,Volkswagen,2008,Crimson,POI654,San Fransisco,32.470376,35.356811,true,123.59,car_4.png,3.8
+34,Rio,Kia,2013,Maroon,LKJ456,New York,47.2550409,-1.5401497,true,132.24,car_10.png,4.1
+35,LeMans,Pontiac,2006,Indigo,ZXC987,Chicago,24.348178,113.151358,true,106.54,car_7.png,4.7
+36,Yukon XL 1500,GMC,2010,Green,POI789,New York,11.2642678,37.4921444,true,117.4,car_8.png,3.8
+37,Express 2500,Chevrolet,2021,Mauv,HGF321,Dallas,31.878735,117.26467,true,127.85,car_1.png,5.0
+38,Celica,Toyota,2022,Goldenrod,LKJ654,Toronto,-6.17017,106.83139,true,63.79,car_10.png,3.7
+39,7 Series,BMW,2002,Turquoise,POI654,Mountain View,34.79951,62.13917,true,172.09,car_3.png,3.2
+40,Roadmaster,Buick,2012,Purple,VWX321,San Fransisco,13.928808,121.421617,true,178.17,car_7.png,4.7
+41,B-Series Plus,Mazda,2012,Maroon,POI789,Austin,41.9943014,20.4128027,true,113.92,car_2.png,3.1
+42,Roadmaster,Buick,2009,Goldenrod,ZXC654,Mountain View,47.338665,123.205323,true,133.92,car_7.png,4.8
+43,Sonata,Hyundai,2014,Goldenrod,HGF321,Washington,42.901533,125.136451,true,99.96,car_6.png,4.0
+44,Malibu,Chevrolet,2011,Crimson,MNB654,Dallas,36.1678611,-115.0406679,true,185.81,car_6.png,4.0
+45,Lanos,Daewoo,2013,Maroon,ZXC987,Mississauga,30.113962,118.169798,true,139.92,car_9.png,3.4
+46,Focus,Ford,2016,Red,HGF456,Mississauga,-4.5699815,-45.133574,true,164.74,car_5.png,3.2
+47,Skylark,Buick,2019,Goldenrod,HGF654,Austin,26.419602,111.8132691,true,198.6,car_9.png,4.0
+48,Uplander,Chevrolet,2002,Fuscia,LKJ654,Washington,60.0785015,15.0265478,true,155.93,car_4.png,4.3
+49,Challenger,Mitsubishi,2018,Teal,POI987,Dallas,48.0724737,7.3469006,true,163.05,car_6.png,4.2
+50,Coachbuilder,Buick,2002,Violet,HGF123,Chicago,-26.6536509,28.5914696,true,146.52,car_2.png,3.2
+51,SVX,Subaru,2015,Maroon,LKJ654,Toronto,42.0678894,-8.5194214,true,136.39,car_6.png,4.1
+52,Forester,Subaru,2018,Violet,HGF123,Mississauga,43.6227518,1.5256514,true,81.45,car_3.png,4.2
+53,Caprice Classic,Chevrolet,2015,Green,MNB987,Dallas,-9.7744129,-76.785759,true,115.18,car_2.png,4.3
+54,Ranger,Ford,2009,Khaki,ASD456,Toronto,8.8994875,39.9170354,true,115.9,car_4.png,4.0
+55,Legacy,Subaru,2015,Puce,POI789,Dallas,43.82551,81.872025,true,120.85,car_4.png,4.7
+56,Cabriolet,Volkswagen,2018,Orange,ZXC654,Toronto,-7.6377266,110.2722262,true,178.97,car_6.png,3.6
+57,Diablo,Lamborghini,2001,Indigo,HGF123,San Fransisco,49.4940668,18.0992378,true,127.14,car_3.png,4.4
+58,E250,Ford,2000,Purple,POI789,Austin,9.2573324,105.7557791,true,191.91,car_9.png,4.7
+59,Wrangler,Jeep,2007,Mauv,GHI789,New York,15.1805822,102.2575235,true,55.97,car_7.png,3.3
+60,Rodeo,Isuzu,2005,Mauv,ZXC987,Chicago,-34.6893836,-58.5801516,true,91.49,car_6.png,4.1
+61,F250,Ford,2016,Goldenrod,POI789,Las Vegas,56.1244362,93.3598524,true,161.07,car_4.png,3.2
+62,X-Type,Jaguar,2012,Violet,HGF456,Austin,9.8586845,-84.0943743,true,194.24,car_9.png,3.4
+63,Grand Am,Pontiac,2014,Fuscia,POI456,Mountain View,42.4782102,78.3955986,true,157.56,car_10.png,4.9
+64,Kizashi,Suzuki,2017,Purple,LKJ654,Washington,3.0646746,97.3290405,true,122.96,car_4.png,4.3
+65,Suburban 1500,Chevrolet,2003,Teal,MNB654,Chicago,41.7941883,123.3695459,true,68.93,car_2.png,3.6
+66,Mustang,Ford,2015,Yellow,HGF123,Mountain View,42.1102695,44.7710122,true,116.81,car_5.png,4.8
+67,Camaro,Chevrolet,2019,Goldenrod,POI654,Mountain View,35.00394,104.634983,true,96.94,car_4.png,4.0
+68,Econoline E350,Ford,2016,Crimson,POI789,Dallas,28.1732341,68.0179319,true,180.08,car_1.png,4.9
+69,Pacifica,Chrysler,2021,Green,ZXC987,Dallas,40.81609,140.37539,true,59.31,car_4.png,4.6
+70,Arnage,Bentley,2000,Khaki,POI654,Chicago,45.212088,130.478187,true,61.35,car_9.png,3.6
+71,CL-Class,Mercedes-Benz,2015,Turquoise,MNB123,Mississauga,10.5308066,105.1609838,true,185.51,car_9.png,3.6
+72,Grand Prix,Pontiac,2015,Violet,MNB654,Mississauga,19.4194815,-99.1894558,true,94.45,car_8.png,3.6
+73,Grand Caravan,Dodge,2013,Fuscia,MNB123,Dallas,8.2471899,34.5915966,true,132.52,car_1.png,3.9
+74,SRX,Cadillac,2009,Crimson,JKL321,Las Vegas,29.742172,103.583042,true,186.82,car_9.png,3.7
+75,Q,Infiniti,2002,Orange,ZXC987,Austin,39.83333,22.3,true,164.26,car_6.png,4.6
+76,Truck,Mitsubishi,2006,Aquamarine,MNB654,Chicago,45.2191483,19.1825632,true,194.05,car_4.png,5.0
+77,Ram 1500 Club,Dodge,2000,Yellow,HGF456,Las Vegas,13.4794397,-16.6703963,true,128.87,car_6.png,4.0
+78,Prius,Toyota,2016,Blue,MNB654,Washington,48.0080981,6.7166698,true,98.51,car_6.png,3.8
+79,Azure,Bentley,2015,Turquoise,POI789,Toronto,46.5834424,15.8262125,true,161.12,car_10.png,3.4
+80,Sequoia,Toyota,2015,Aquamarine,MNB123,Washington,49.7995264,18.4900139,true,87.67,car_3.png,3.2
+81,Rio,Kia,2022,Yellow,HGF123,Austin,50.1262873,20.1024758,true,101.56,car_7.png,4.0
+82,A8,Audi,2010,Pink,QWE123,Chicago,59.3573116,27.4136645,true,73.1,car_10.png,4.0
+83,Outlander,Mitsubishi,2022,Green,HGF321,Las Vegas,51.3410301,22.753461,true,153.71,car_3.png,3.2
+84,Expedition,Ford,2002,Indigo,POI987,Dallas,57.7051896,11.9006932,true,51.89,car_3.png,4.5
+85,Q5,Audi,2004,Crimson,HGF123,New York,35.3434929,132.9039749,true,52.31,car_10.png,3.9
+86,Land Cruiser,Toyota,2001,Crimson,GHI789,Dallas,29.2642495,115.3133908,true,193.42,car_6.png,3.8
+87,Corvette,Chevrolet,2002,Orange,ZXC987,Austin,12.6729174,13.616014,true,106.5,car_5.png,4.4
+88,Town & Country,Chrysler,2015,Fuscia,LKJ456,Toronto,-11.3781106,-40.6039185,true,58.16,car_1.png,4.7
+89,Challenger,Dodge,2018,Yellow,POI789,Las Vegas,43.981544,87.504934,true,105.65,car_1.png,3.4
+90,Safari,GMC,2011,Pink,POI654,Chicago,23.106401,113.459749,true,138.17,car_1.png,3.4
+91,Vibe,Pontiac,2022,Red,HGF123,San Fransisco,-7.0777326,113.287085,true,172.8,car_1.png,4.5
+92,62,Maybach,2019,Red,MNB654,Toronto,41.2684021,-8.0777054,true,64.91,car_9.png,4.7
+93,Q,Infiniti,2003,Mauv,ZXC987,New York,15.6987382,100.11996,true,189.67,car_1.png,4.9
+94,90,Audi,2019,Aquamarine,ZXC654,Mountain View,35.408609,117.146885,true,126.49,car_7.png,3.1
+95,100,Audi,2014,Orange,POI654,Mississauga,7.4240414,-6.0520363,true,82.87,car_2.png,3.6
+96,Range Rover,Land Rover,2009,Khaki,ABC123,San Fransisco,12.7878653,-85.1233,true,73.74,car_2.png,4.6
+97,Leganza,Daewoo,2000,Orange,LKJ654,Mississauga,6.6402,121.8395,true,52.89,car_10.png,4.7
+98,Phantom,Rolls-Royce,2003,Purple,STU654,Mountain View,18.4759089,-73.2337779,true,139.55,car_4.png,3.2
+99,Cabriolet,Volkswagen,2011,Indigo,JKL321,Mountain View,31.364042,108.520914,true,151.19,car_3.png,3.1
+100,Taurus,Ford,2016,Violet,MNB654,Washington,50.6906104,18.5510673,true,116.41,car_3.png,4.0
+101,A6,Audi,2015,Green,ZXC654,Washington,-49.3496422,70.218004,true,73.69,car_10.png,3.8
+102,Cougar,Mercury,2005,Pink,ZXC654,Washington,7.579029,-75.349545,true,106.86,car_10.png,3.2
+103,Silverado 2500,Chevrolet,2006,Orange,HGF456,Washington,11.2755407,49.1878994,true,99.5,car_3.png,4.4
+104,C8 Double 12 S,Spyker,2020,Red,HGF321,Washington,6.4387946,100.1947477,true,61.02,car_10.png,3.8
+105,F-Series,Ford,2016,Indigo,PQR987,New York,47.349916,130.297964,true,60.1,car_5.png,4.5
+106,RL,Acura,2008,Crimson,ZXC987,San Fransisco,29.020827,110.637506,true,125.37,car_6.png,4.2
+107,Esteem,Suzuki,2007,Fuscia,MNB654,Washington,23.69589,113.645048,true,71.83,car_10.png,4.9
+108,Silverado 3500,Chevrolet,2003,Khaki,LKJ123,Mississauga,37.1691,10.03478,true,66.12,car_6.png,4.8
+109,Focus,Ford,2013,Crimson,DEF456,San Fransisco,1.1704451,99.2037508,true,82.76,car_4.png,4.5
+110,C70,Volvo,2010,Fuscia,VWX321,Chicago,14.4874284,-4.1974627,true,183.78,car_1.png,3.6
+111,Xterra,Nissan,2001,Goldenrod,LKJ789,Washington,14.5005732,120.9926908,true,109.6,car_2.png,4.5
+112,R-Class,Mercedes-Benz,2020,Green,ZXC987,San Fransisco,-1.5176837,37.2634146,true,86.76,car_9.png,4.5
+113,Taurus,Ford,2014,Maroon,HGF987,Chicago,28.2281301,112.9884237,true,82.78,car_7.png,4.1
+114,T100,Toyota,2019,Khaki,LKJ789,San Fransisco,38.2468667,47.1168459,true,152.69,car_3.png,3.2
+115,XJ,Jaguar,2007,Teal,LKJ654,New York,48.0395425,-0.705495,true,65.27,car_10.png,3.1
+116,F150,Ford,2020,Violet,HGF123,Dallas,44.387458,-69.586443,true,73.88,car_6.png,4.1
+117,RX-7,Mazda,2013,Violet,HGF321,Mississauga,-32.9578112,-60.6682209,true,98.31,car_10.png,4.6
+118,Caravan,Dodge,2010,Violet,MNB654,New York,14.5655642,121.032693,true,177.57,car_8.png,3.5
+119,Astro,Chevrolet,2016,Pink,LKJ654,Mississauga,7.6538679,-11.967619,true,110.21,car_8.png,3.6
+120,Esperante,Panoz,2015,Fuscia,LKJ654,Mountain View,37.3833017,55.5025595,true,83.46,car_6.png,4.1
+121,Escalade,Cadillac,2003,Teal,MNB654,Toronto,43.4945737,5.8978018,true,73.78,car_10.png,3.9
+122,CL-Class,Mercedes-Benz,2022,Yellow,POI654,Mountain View,25.849502,107.280659,true,126.32,car_2.png,3.0
+123,Roadster,Tesla,2021,Crimson,YZZ999,Las Vegas,48.9059421,17.4598869,true,152.82,car_1.png,5.0
+124,RX,Lexus,2003,Pink,PQR987,Austin,-5.1443118,-38.0850339,true,89.97,car_6.png,3.6
+125,TL,Acura,2001,Pink,MNB123,San Fransisco,45.2051732,20.1323619,true,64.14,car_6.png,4.7
+126,300ZX,Nissan,2006,Puce,MNB654,New York,28.39895,113.02064,true,134.95,car_1.png,3.3
+127,NX,Nissan,2014,Purple,MNO654,Dallas,67.1466984,-178.7494469,true,116.32,car_7.png,4.7
+128,S-Series,Saturn,2018,Orange,ZXC654,Washington,54.2109904,-8.5070436,true,119.95,car_10.png,3.1
+129,VUE,Saturn,2018,Maroon,MNB654,Toronto,57.4456872,41.1570607,true,116.69,car_10.png,3.0
+130,CX-9,Mazda,2005,Khaki,POI654,Mississauga,55.1220513,37.9590427,true,193.83,car_9.png,3.6
+131,Brougham,Cadillac,2019,Yellow,POI789,Las Vegas,-22.9972026,-47.512814,true,158.06,car_2.png,3.1
+132,Grand Marquis,Mercury,2000,Red,POI654,Austin,45.5417415,-73.471152,true,68.72,car_9.png,3.5
+133,200,Audi,2002,Goldenrod,POI654,Toronto,23.04421,112.677965,true,64.68,car_9.png,3.9
+134,Suburban 2500,GMC,2014,Yellow,LKJ789,Mountain View,14.6387213,121.0505978,true,148.98,car_8.png,4.1
+135,Silverado 2500,Chevrolet,2014,Indigo,ZXC987,Washington,-7.43712,108.36198,true,151.27,car_1.png,4.1
+136,Ram 2500,Dodge,2020,Mauv,HGF123,Toronto,-32.9150009,-65.3749466,true,76.95,car_2.png,4.0
+137,Corvette,Chevrolet,2018,Goldenrod,LKJ654,Mountain View,49.9106966,16.9101736,true,118.44,car_2.png,4.0
+138,Stealth,Dodge,2003,Turquoise,LKJ789,Austin,23.5359158,116.3544565,true,61.54,car_8.png,4.2
+139,Ram 1500,Dodge,2013,Crimson,JKL321,Washington,14.83361,43.53639,true,192.35,car_9.png,3.9
+140,Electra,Buick,2008,Goldenrod,POI987,Las Vegas,44.8501354,-0.5702805,true,90.91,car_2.png,3.0
+141,Estate,Buick,2001,Green,ABC123,Chicago,49.3142554,15.3946577,true,107.74,car_3.png,3.0
+142,3500,GMC,2000,Fuscia,ZXC987,Toronto,-8.1054,113.2827,true,155.24,car_5.png,4.7
+143,Touareg,Volkswagen,2003,Goldenrod,MNB654,Washington,-18.4902959,-64.1123359,true,118.13,car_8.png,4.6
+144,Topaz,Mercury,2001,Indigo,HGF123,Dallas,-20.9829904,-40.9990597,true,87.1,car_8.png,3.5
+145,S4,Audi,2017,Aquamarine,LKJ654,San Fransisco,49.6619465,-112.8149467,true,183.35,car_5.png,4.7
+146,Elantra,Hyundai,2010,Goldenrod,ZXC654,Mississauga,54.6410525,22.7575987,true,196.69,car_1.png,3.2
+147,Tacoma Xtra,Toyota,2019,Orange,POI987,New York,56.3229585,39.3205815,true,175.16,car_9.png,3.3
+148,HS,Lexus,2009,Goldenrod,LKJ456,Chicago,49.4941103,6.0360933,true,113.88,car_10.png,3.5
+149,Dakota Club,Dodge,2019,Orange,MNB123,Mississauga,23.72892,109.183333,true,134.83,car_10.png,3.4
+150,Land Cruiser,Toyota,2007,Violet,MNB654,New York,30.164679,120.161441,true,135.54,car_7.png,3.1
+151,Lynx,Mercury,2022,Puce,LKJ654,Washington,-6.10819,177.33393,true,139.26,car_5.png,4.9
+152,B-Series Plus,Mazda,2021,Blue,MNB654,San Fransisco,15.2674321,-88.5420304,true,118.45,car_1.png,4.5
+153,Bronco,Ford,2003,Green,HGF321,Las Vegas,52.1705764,17.6900802,true,94.52,car_4.png,3.4
+154,Tiburon,Hyundai,2014,Puce,HGF321,Mountain View,48.4980698,-81.3463468,true,190.53,car_1.png,3.5
+155,8 Series,BMW,2011,Green,ZXC789,Washington,38.87,-77.23,true,166.1,car_10.png,3.8
+156,Ramcharger,Dodge,2014,Maroon,MNB654,Mississauga,28.1732341,68.0179319,true,178.14,car_9.png,4.2
+157,Familia,Mazda,2013,Indigo,LKJ123,New York,38.2122481,140.3246377,true,84.86,car_7.png,4.4
+158,Lancer,Mitsubishi,2022,Turquoise,HGF654,Austin,36.769677,101.48989,true,145.78,car_7.png,3.9
+159,Pajero,Mitsubishi,2021,Blue,MNB654,Austin,-17.5495741,-149.7905619,true,97.59,car_4.png,5.0
+160,Ridgeline,Honda,2015,Puce,HGF456,Washington,-6.9095295,107.5764046,true,140.44,car_1.png,4.8
+161,Forester,Subaru,2002,Yellow,POI654,Austin,20.900993,-100.747182,true,106.39,car_5.png,3.1
+162,F350,Ford,2009,Red,POI789,Chicago,53.6094246,18.5697311,true,186.43,car_6.png,4.4
+163,Avalon,Toyota,2003,Khaki,MNB123,Mountain View,-6.9484206,110.2579036,true,88.97,car_8.png,4.1
+164,X6,BMW,2009,Crimson,LKJ789,Mountain View,-12.064682,-77.029602,true,172.56,car_6.png,4.6
+165,Savana 2500,GMC,2005,Violet,ZXC654,Chicago,-6.8055934,110.7629067,true,126.93,car_2.png,4.0
+166,Celica,Toyota,2007,Indigo,POI987,Toronto,-33.8780645,18.5748049,true,70.88,car_1.png,4.6
+167,Sunbird,Pontiac,2009,Crimson,GHI789,Chicago,19.1527452,101.1539414,true,50.53,car_8.png,4.8
+168,Ghost,Rolls-Royce,2009,Maroon,POI987,Austin,-8.2831649,113.5103504,true,173.91,car_6.png,4.3
+169,Sable,Mercury,2006,Teal,HGF321,Austin,24.607906,118.534074,true,150.81,car_6.png,4.9
+170,Axiom,Isuzu,2012,Maroon,MNB654,Mississauga,35.200539,26.250031,true,156.89,car_10.png,3.4
+171,X6 M,BMW,2008,Indigo,ABC123,Washington,49.7371648,19.9186389,true,151.78,car_8.png,3.8
+172,Colorado,Chevrolet,2015,Goldenrod,HGF654,Toronto,38.918056,117.448512,true,146.85,car_3.png,3.8
+173,Fusion,Ford,2011,Orange,POI789,Mississauga,50.1575901,17.9852459,true,58.25,car_7.png,4.9
+174,7 Series,BMW,2013,Khaki,ZXC654,Dallas,23.12468,113.3612,true,162.73,car_4.png,4.4
+175,Amanti,Kia,2015,Crimson,POI456,New York,-6.6126215,105.7233814,true,113.81,car_9.png,3.7
+176,Eldorado,Cadillac,2000,Yellow,MNB123,Toronto,42.611806,-71.3329476,true,193.93,car_9.png,4.3
+177,Villager,Mercury,2004,Violet,ZXC987,Chicago,8.157787,-77.6918093,true,178.23,car_10.png,4.2
+178,Roadmaster,Buick,2013,Yellow,MNB654,Las Vegas,-9.0972502,-35.5876697,true,81.92,car_3.png,3.9
+179,Escalade ESV,Cadillac,2021,Fuscia,GHI789,Toronto,15.0219707,-88.1510962,true,195.24,car_3.png,4.1
+180,Forester,Subaru,2020,Orange,GHI789,New York,60.2615318,37.9796654,true,58.98,car_6.png,4.2
+181,Highlander,Toyota,2000,Yellow,ZXC987,Austin,24.44218,114.938684,true,168.76,car_7.png,4.8
+182,Montero,Mitsubishi,2008,Red,LKJ456,Toronto,26.641315,100.222545,true,146.2,car_10.png,3.9
+183,Sundance,Plymouth,2014,Yellow,GHI789,Chicago,16.7690892,120.3353957,true,167.75,car_8.png,3.4
+184,Intrepid,Dodge,2019,Puce,ZXC987,Washington,34.6495513,-3.8629852,true,63.52,car_3.png,4.6
+185,4Runner,Toyota,2006,Khaki,MNB654,New York,33.4996213,126.5311884,true,160.74,car_2.png,3.5
+186,Miata MX-5,Mazda,2012,Green,ZXC654,Dallas,48.1735351,-89.4810715,true,171.47,car_5.png,3.3
+187,Boxster,Porsche,2021,Maroon,POI654,Washington,55.5449766,13.953453,true,132.34,car_9.png,4.6
+188,GT-R,Nissan,2006,Orange,ZXC987,Austin,-6.7061169,111.4320603,true,98.7,car_5.png,4.8
+189,Mark VIII,Lincoln,2016,Khaki,POI987,Las Vegas,22.109412,111.705859,true,110.67,car_10.png,4.8
+190,GS,Lexus,2018,Orange,HGF987,Austin,11.406883,125.550288,true,195.31,car_7.png,3.2
+191,Accord,Honda,2006,Khaki,MNB654,Chicago,-34.7063243,-58.4776004,true,118.27,car_10.png,4.4
+192,Ram Van 2500,Dodge,2017,Aquamarine,MNB123,Austin,35.476788,110.442846,true,96.97,car_4.png,3.2
+193,Stratus,Dodge,2000,Aquamarine,POI789,Las Vegas,42.3840829,-83.0415078,true,167.92,car_9.png,4.0
+194,Equinox,Chevrolet,2011,Yellow,MNB123,Austin,29.919421,121.085794,true,167.9,car_4.png,3.4
+195,CLK-Class,Mercedes-Benz,2012,Aquamarine,MNB987,Mississauga,-8.0716019,112.1758089,true,147.5,car_10.png,4.6
+196,Rendezvous,Buick,2012,Teal,HGF321,San Fransisco,40.5315848,-7.9522138,true,127.73,car_4.png,3.4
+197,S-Series,Saturn,2012,Pink,LKJ654,Las Vegas,11.2658847,7.6480296,true,155.42,car_3.png,4.7
+198,Ranger,Ford,2015,Violet,LKJ654,Mountain View,14.4432287,108.9918254,true,142.57,car_3.png,4.2
+199,ES,Lexus,2012,Puce,ZXC789,Toronto,36.8022774,-76.2768755,true,188.12,car_9.png,4.5
+200,Tahoe,Chevrolet,2010,Red,LKJ654,Toronto,13.8994973,100.5426442,true,98.79,car_2.png,3.4

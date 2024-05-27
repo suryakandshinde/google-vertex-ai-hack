@@ -1,0 +1,575 @@
+openapi: 3.1.0
+paths:
+  /:
+    get:
+      operationId: AppController_redirectToSite
+      summary: Redirect to deafutlt site
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Google Gemini - GenAI
+  /chat:
+    post:
+      operationId: AppController_chat
+      summary: Chat with google gemeni
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+      tags:
+        - Google Gemini - GenAI
+  /feedback:
+    post:
+      operationId: AppController_submitFeedback
+      summary: provides sentiment analysis about customer feedback and suggest and offer
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SentimentRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SentimentOfferResponse'
+      tags:
+        - Google Gemini - GenAI
+  /offer/{offerId}:
+    get:
+      operationId: AppController_getOffer
+      summary: get an offer based on sentiment
+      parameters:
+        - name: offerId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offer'
+      tags:
+        - Google Gemini - GenAI
+  /sentiment:
+    post:
+      operationId: AppController_getSentiment
+      summary: get sentiment of user feedback
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SentimentRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+      tags:
+        - Google Gemini - GenAI
+  /google/langchain/chat:
+    post:
+      operationId: AppController_googleChat
+      summary: Chat with langchain
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+      tags:
+        - Google Gemini - GenAI
+  /google/function-calling/chat:
+    post:
+      operationId: AppController_googleFunctionCallingChat
+      summary: Call functions based on user need
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+      tags:
+        - Google Gemini - GenAI
+  /car-rental/list-cars:
+    post:
+      operationId: CarRetalController_listCars
+      summary: Search cars within a given city based on make and model of car
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CarFilter'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CarList'
+      tags:
+        - Car Rental
+  /car-rental/book-car:
+    post:
+      operationId: CarRetalController_bookCar
+      summary: Book a rental car based on the provided details
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookCarRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CarBooking'
+      tags:
+        - Car Rental
+  /car-rental/booking-detail:
+    post:
+      operationId: CarRetalController_bookingDetail
+      summary: Get rental car booking/reservation detail
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookingDetailRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CarBooking'
+      tags:
+        - Car Rental
+  /car-rental/cancel-booking:
+    post:
+      operationId: CarRetalController_cancelBooking
+      summary: Cancel rental car booking/reservation
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookingDetailRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralStatus'
+      tags:
+        - Car Rental
+  /car-rental/confirmation-email:
+    post:
+      operationId: CarRetalController_sendBookingDetailViaEmail
+      summary: Send rental car booking/reservation details via email
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookingDetailRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralStatus'
+      tags:
+        - Car Rental
+  /mail/inline-body:
+    post:
+      operationId: MailController_mailInlineBody
+      summary: Send mail with the provided body
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MailRequest'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Mail
+  /mail/template:
+    post:
+      operationId: MailController_mail
+      summary: Send mail using template
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MailRequest'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Mail
+info:
+  title: Demo API
+  description: An SDK for Demo
+  version: '1.0'
+  contact: {}
+tags: []
+servers:
+  - url: https://genai-demo.onrender.com
+components:
+  schemas:
+    ChatRequest:
+      type: object
+      properties:
+        text:
+          type: string
+          example: chat message
+          description: Chat message
+        history:
+          example: []
+          description: Chat history
+          type: array
+          items:
+            type: string
+      required:
+        - text
+        - history
+    ChatResponse:
+      type: object
+      properties:
+        text:
+          type: string
+          example: '0'
+          description: Response from AI
+      required:
+        - text
+    SentimentRequest:
+      type: object
+      properties:
+        text:
+          type: string
+          example: The cost of the car was very reasonable and I was very happy with the service.
+          description: Request/Text entered by used and sent to Prompt template.
+      required:
+        - text
+    SentimentOfferResponse:
+      type: object
+      properties:
+        sentiment:
+          type: string
+          example: '0'
+          description: Response from AI
+        offer:
+          type: string
+          example: Free Upgrade
+          description: Unique Offer ID
+      required:
+        - sentiment
+        - offer
+    Offer:
+      type: object
+      properties:
+        id:
+          type: string
+          example: offer1
+          description: Offer ID
+        name:
+          type: string
+          example: Free Upgrade
+          description: Offer Name
+        description:
+          type: string
+          example: Free Upgrade for loyal customers
+          description: Offer Description
+        asset:
+          type: string
+          example: /asset/offers/offer1.png
+          description: Offer Asset/Image
+        metadata:
+          example:
+            - free
+            - upgrade
+          description: Offer Meatadat
+          type: array
+          items:
+            type: string
+      required:
+        - id
+        - name
+        - description
+        - asset
+        - metadata
+    CarFilter:
+      type: object
+      properties:
+        model:
+          type: string
+          example: Honda
+          description: Make or model of car
+        availabilityStatus:
+          type: boolean
+          example: true
+          description: AvailabilityStatus of car
+        city:
+          type: string
+          example: Toronto
+          description: City where the car is needed
+      required:
+        - model
+        - city
+    CarList:
+      type: object
+      properties:
+        items:
+          example: []
+          description: List of cars
+          type: array
+          items:
+            type: string
+      required:
+        - items
+    BookCarRequest:
+      type: object
+      properties:
+        carId:
+          type: number
+          example: 1
+          description: Id of the car
+        rentalStartDate:
+          format: date-time
+          type: string
+          example: '2024-22-04'
+          description: 'Start date of renting (format: YYYY-MM-DD)'
+        rentalEndDate:
+          format: date-time
+          type: string
+          example: '2024-24-04'
+          description: 'End date of renting (format: YYYY-MM-DD)'
+        rentalCityDrop:
+          type: string
+          example: Toronto
+          description: City where the car will be dropped
+        customerName:
+          type: string
+          example: Surya
+          description: Name of customer who want to book car
+        customerEmail:
+          type: string
+          example: someemail@example.com
+          description: Email of customer
+      required:
+        - carId
+        - rentalStartDate
+        - rentalEndDate
+        - rentalCityDrop
+        - customerName
+        - customerEmail
+    Car:
+      type: object
+      properties:
+        make:
+          type: string
+          example: Honda
+          description: Make of car
+        model:
+          type: string
+          example: Civic
+          description: Model of car
+        year:
+          type: number
+          example: 1983
+          description: Year of car
+        color:
+          type: string
+          example: Red
+          description: Color of car
+        licensePlate:
+          type: string
+          example: BX1234
+          description: Car plate number
+        city:
+          type: string
+          example: Toronto
+          description: City where the car is present
+        rentalPrice:
+          type: number
+          example: 99.99
+          description: Per day price of car
+        lat:
+          type: string
+          example: '43.653225'
+          description: Latitude
+        lon:
+          type: string
+          example: '-79.383186'
+          description: Longitude
+        availability:
+          type: boolean
+          example: 0
+          description: Car is available?
+        description:
+          type: string
+          example: The car is in great condition.
+          description: description of car
+        imageUrl:
+          type: string
+          example: /assets/cars/honda_civic_2015.png
+          description: Image url of car
+        rating:
+          type: number
+          example: 4.5
+          description: Rating of car
+      required:
+        - make
+        - model
+        - year
+        - color
+        - licensePlate
+        - city
+        - rentalPrice
+    CarBooking:
+      type: object
+      properties:
+        car:
+          example: Honda
+          description: Car ID
+          allOf:
+            - $ref: '#/components/schemas/Car'
+        customerName:
+          type: string
+          example: John Doe
+          description: Name of the customer booking the car
+        customerEmail:
+          type: string
+          example: johndoe@doesnotexist.com
+          description: Email of the customer booking the car
+        rentalCityDrop:
+          type: string
+          example: Mississauga
+          description: City where the car is will be dropped
+        rentalStartDate:
+          format: date-time
+          type: string
+          example: 1714148608233
+          description: Rental start date
+        rentalEndDate:
+          format: date-time
+          type: string
+          example: 1714148608233
+          description: Rental end date
+        rentalBookDate:
+          format: date-time
+          type: string
+          example: 1714148608233
+          description: Rental end date
+        status:
+          type: string
+          example: John Doe
+          description: Name of the customer booking the car
+      required:
+        - car
+        - customerName
+        - customerEmail
+        - rentalCityDrop
+        - rentalStartDate
+        - rentalEndDate
+        - rentalBookDate
+        - status
+    BookingDetailRequest:
+      type: object
+      properties:
+        bookingId:
+          type: number
+          example: 1
+          description: Booking/Reservation ID
+      required:
+        - bookingId
+    GeneralStatus:
+      type: object
+      properties:
+        status:
+          type: boolean
+          example: true
+          description: General status of execution
+        message:
+          type: string
+          example: A description about the status
+          description: General status of execution
+      required:
+        - status
+    MailRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          example: someemail@test.com
+          description: Email Address
+        subject:
+          type: string
+          example: This is confirmation email!
+          description: Subject of email
+        text:
+          type: string
+          example: This is test email
+          description: Content of email
+        html:
+          type: string
+          example: <p>This is test email in HTML format</p>
+          description: Content of email
+      required:
+        - email
+        - subject
+        - text
