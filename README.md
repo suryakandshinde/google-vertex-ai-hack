@@ -1,8 +1,8 @@
 
 # Note about video presentation
-The solution was initially implemented used **Google Vertex AI Agent** but, I realized that I can not get the Chat App approved from Google before the hackathon deadline. The Google approval process need formal privacy policy etc. to successfully complete the approval. Hence, I have added an additional Chat implementation using HTML and JS based chat widget so that Hackathon evaluators and users can access the and test drive the live demo of Chat Agent. 
+The solution was initially implemented used **Google Vertex AI Agent** but, I realized that I can not get the Chat App approved from Google before the hackathon deadline. 
 
-I have recorded a demo of Google Vertex AI Agent App (using my test account) to show what the experience looks like with Vertex AI Agent App. Both videos (using Vertex AI Agent and classic HTML-JS widget) are shared below.
+I have recorded a demo of Google Vertex AI Agent App (using my test account) to show what the experience looks like with Vertex AI Agent App.
 
 More detail about the approval process: https://support.google.com/cloud/answer/13463073?hl=en
 <img src="https://github.com/suryakandshinde/google-vertex-ai-hack/raw/main/docs/google_oauth_approval.png" width="60%" /> 
