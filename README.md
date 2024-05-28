@@ -130,11 +130,25 @@ For this demo, only a small subset of use cases was developed to demonstrate **A
 - Swagger UI: [https://genai-demo-vq5zkwn4yq-uc.a.run.app/api](https://genai-demo-vq5zkwn4yq-uc.a.run.app/api)
 - Swagger JSON: [https://genai-demo-vq5zkwn4yq-uc.a.run.app/api-json](https://genai-demo-vq5zkwn4yq-uc.a.run.app/api-json)
 
-### Example Customer Interactions to try with the Vertex AI Assistant
-- Book a car: `I want to book a Ford in Toronto`, `I want to rent a car for 3 days in Toronto`
-- Find reservation: `find my booking`, `find my reservation detail`
-- Cancel booking: `cancel my rental booking`
-- Sentiment Analysis: `It took us almost three hours just to get a car! It was absurd.`, `The price of car was too high and the whole process took a lot of time.`
+### Test Script to try with the Vertex AI Agent
+- Book a car scenario: 
+    - User: `I want to book a car`
+    - User: `I want a Ford in Toronto. Can you show me which cars you have?`
+    - User: `Do you want to show me the details for cars`
+    - User: `Ford E150`
+    - User: `Ok, I'll book this car`
+    - User: `I want it for 2 days starting 29th April`
+    - User: `Suryakand Shinde, <removed for privacy reason>`
+    - User: `Thanks`
+- Cancel booking: 
+    - User: `Can you help with cancellation of a booking?`
+    - User: `The booking id is 1`
+- Find reservation: 
+    - User: `Show me booking details`
+    - User: `The booking id is 1`
+- Sentiment Analysis: 
+    - User: `As a feedback, I also wanted to say that my experience with booking car was not good. It took a long time for me to book a car.`
+    - User: `The staff could be more polite and help customers on time`
 
 ## Want to learn more about the solution?
 More details about tools/services that are used for developing the solution.
