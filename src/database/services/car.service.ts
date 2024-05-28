@@ -100,7 +100,13 @@ export class CarService {
         return qb;
     }
 
-
+    /**
+     * Send booking email
+     * @param bookingId
+     * @param subject 
+     * @param template 
+     * @returns GeneralStatus
+     */
     async sendMail(bookingId, subject, template): Promise<GeneralStatus> {
         const ci = this;
 
